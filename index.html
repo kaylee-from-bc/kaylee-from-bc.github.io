@@ -3,7 +3,12 @@
 
 <head>
   <title>Cucumber Feature Report</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <style type="text/css">
     .panel-heading {
       padding: 0;
@@ -19,9 +24,249 @@
       <div class="col-sm-2 sidenav">
       </div>
       <div class="col-sm-8 text-left">
+
         <h2>Report run test xss automation</h2>
         <p>Description: This report is used to record test results and will be updated daily.
-        <table class="table">
+
+          <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home">XSS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#menu1">Behavior</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a> -->
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active" id="home">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">FE lib version</th>
+                  <th scope="col">Theme</th>
+                  <th scope="col">Date executed</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1.6.21</th>
+                  <td>Prestige</td>
+                  <td>22/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.21_Prestige.html" role="button"
+                      target="_blank">Click
+                      to view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.25</th>
+                  <td>Prestige</td>
+                  <td>22/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.25_Prestige.html" role="button"
+                      target="_blank">Click
+                      to view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.27</th>
+                  <td>Prestige</td>
+                  <td>22/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.27_Prestige.html" role="button"
+                      target="_blank">Click
+                      to view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.20</th>
+                  <td>Prestige</td>
+                  <td>22/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.20_Prestige.html" role="button"
+                      target="_blank">Click
+                      to view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.21</th>
+                  <td>Dawn</td>
+                  <td>22/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.21_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.25</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.25_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.27</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.27_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.7</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.7_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.13</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.13_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.4.9</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.4.9_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.5.3</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.5.3_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.5</th>
+                  <td>Dawn</td>
+                  <td>23/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.5_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.3.3</th>
+                  <td>Empire</td>
+                  <td>24/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.3.3_Empire.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.4.8</th>
+                  <td>Empire</td>
+                  <td>24/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.4.8_Empire.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.1.13</th>
+                  <td>Empire</td>
+                  <td>24/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.1.13_Empire.html" role="button"
+                      target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.0.2</th>
+                  <td>Empire</td>
+                  <td>24/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.0.2_Empire.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.27</th>
+                  <td>Default</td>
+                  <td>27/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.27_Default.html" role="button"
+                      target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.6.21</th>
+                  <td>Default</td>
+                  <td>27/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.6.21_Default.html" role="button"
+                      target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.3.3</th>
+                  <td>Default</td>
+                  <td>27/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.3.3_Default.html" role="button"
+                      target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.1.13</th>
+                  <td>Default</td>
+                  <td>27/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.1.13_Default.html" role="button"
+                      target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.7.4</th>
+                  <td>Dawn</td>
+                  <td>27/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.7.4_Dawn.html" role="button" target="_blank">Click
+                      to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.7.5</th>
+                  <td>Dawn</td>
+                  <td>29/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.7.5_Dawn.html" role="button" target="_blank">Click to
+                      view report</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">1.7.5</th>
+                  <td>Prestige</td>
+                  <td>29/12/2021</td>
+                  <td><a class="btn btn-primary" href="report_xss_1.7.5_Prestige.html" role="button" target="_blank">Click to
+                      view report</a></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+          <div class="tab-pane container fade" id="menu1">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Theme</th>
+                  <th scope="col">Layout</th>
+                  <th scope="col">Date executed</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Dawn</th>
+                  <td>Vertical</td>
+                  <td>29/12/2021</td>
+                  <td><a class="btn btn-primary" href="regression_test/ExtentReport291221.html" role="button"
+                      target="_blank">Click
+                      to view report</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="tab-pane container fade" id="menu2"><a href="https://google.com">google</a></div>
+        </div>
+
+
+        <!-- <table class="table">
           <thead>
             <tr>
               <th scope="col">FE lib version</th>
@@ -172,28 +417,19 @@
                   view report</a></td>
             </tr>
             <tr>
-              <th scope="row">1.7.4 </th>
+              <th scope="row">1.7.4</th>
               <td>Dawn</td>
               <td>27/12/2021</td>
               <td><a class="btn btn-primary" href="report_xss_1.7.4_Dawn.html" role="button" target="_blank">Click to
                   view report</a></td>
             </tr>
-            <tr>
-              <th scope="row">1.7.5</th>
-              <td>Dawn</td>
-              <td>29/12/2021</td>
-              <td><a class="btn btn-primary" href="report_xss_1.7.5_Dawn.html" role="button" target="_blank">Click to
-                  view report</a></td>
-            </tr>
-            <tr>
-              <th scope="row">1.7.5</th>
-              <td>Prestige</td>
-              <td>29/12/2021</td>
-              <td><a class="btn btn-primary" href="report_xss_1.7.5_Prestige.html" role="button" target="_blank">Click to
-                  view report</a></td>
-            </tr>
           </tbody>
-        </table>
+        </table> -->
+
+
+
+
+
       </div>
       <div class="col-sm-2 sidenav">
       </div>
